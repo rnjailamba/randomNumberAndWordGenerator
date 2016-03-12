@@ -1,0 +1,27 @@
+{
+  "name": "randomnumberandwordgenerator",
+  "version": "0.0.0",
+  "description": "Simple random number / word / hybrid(number+alphabets) generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnjailamba/randomNumberAndWordGenerator.git"
+  },
+  "keywords": [
+    "\"random\"",
+    "\"number\"",
+    "\"word\"",
+    "\"string\"",
+    "\"generator\"",
+    "\"randomnumberandwordgenerator\""
+  ],
+  "author": "Rnjai Lamba <rnjailamba12@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnjailamba/randomNumberAndWordGenerator/issues"
+  },
+  "homepage": "https://github.com/rnjailamba/randomNumberAndWordGenerator#readme"
+}
