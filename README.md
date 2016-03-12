@@ -10,7 +10,7 @@
 Random number / word / string  Generator for Node JS / Express JS / Javascript that just works
 =======================================
 
-A small and reliable library for creating a random number / word / string of given length.
+A small and reliable library for creating a random number / word / string of given length.         
 Length must be an integer and greater than 0.
 
 ## Installation
