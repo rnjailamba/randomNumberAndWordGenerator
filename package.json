@@ -4,7 +4,7 @@
   "description": "Simple random number / word / hybrid(number+alphabets) generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/rnjailamba/randomNumberAndWordGenerator/issues"
   },
-  "homepage": "https://github.com/rnjailamba/randomNumberAndWordGenerator#readme"
+  "homepage": "https://github.com/rnjailamba/randomNumberAndWordGenerator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ]
 }
