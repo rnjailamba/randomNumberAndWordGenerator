@@ -7,10 +7,11 @@
 [![npm downloads](https://img.shields.io/npm/dm/randomnumberandwordgenerator.svg?style=flat)](https://www.npmjs.com/package/randomnumberandwordgenerator)
 
 
-Random number / word / string  Generator for Node JS / Express JS / Javascript
+Random number / word / string  Generator for Node JS / Express JS / Javascript that just works
 =======================================
 
-A small library creating a random number / word / string of given lenth
+A small and reliable library for creating a random number / word / string of given length.
+Length must be an integer and greater than 0.
 
 ## Installation
 
@@ -26,21 +27,10 @@ A small library creating a random number / word / string of given lenth
   var randomNumber = randomNumberGenerator(30);
   console.log("This is randomness - " , randomNumber);
  
-  prints some random number of length 30 
+  prints some random number of length 30 ( example - 583894646777687598796646685553 )
 ```
 
 ## Usage - Example 2
-
-```
-  var random = require('randomnumberandwordgenerator');
-  var randomStringGenerator = random.randomStringGenerator;
-  var randomString = randomStringGenerator(30);
-  console.log("This is randomness - " , randomString);
- 
-  prints some random string of length 30 
-```
-
-## Usage - Example 3
 
 ```
   var random = require('randomnumberandwordgenerator');
@@ -48,8 +38,21 @@ A small library creating a random number / word / string of given lenth
   var randomWord = randomWordGenerator(30);
   console.log("This is randomness - " , randomWord);
  
-  prints some random word of length 30 
+  prints some random word of length 30 ( example - eIAILRnjJTBdIDSKwJrInIxOcPGUtn )
 ```
+
+## Usage - Example 3
+
+```
+  var random = require('randomnumberandwordgenerator');
+  var randomStringGenerator = random.randomStringGenerator;
+  var randomString = randomStringGenerator(30);
+  console.log("This is randomness - " , randomString);
+ 
+  prints some random string of length 30 ( example - cnbq0smX4PhNpLcFLGcSTLFoKct3ML )
+```
+
+
 
 ## Tests
 
