@@ -1,7 +1,7 @@
 {
   "name": "randomnumberandwordgenerator",
-  "version": "0.0.0",
-  "description": "Simple random number / word / hybrid(number+alphabets) generator",
+  "version": "0.0.2",
+  "description": "Simple random number / word / string (number+alphabets) generator",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -16,7 +16,10 @@
     "\"word\"",
     "\"string\"",
     "\"generator\"",
-    "\"randomnumberandwordgenerator\""
+    "\"randomnumberandwordgenerator\"",
+    "\"nodejs\"",
+    "\"expressjs\"",
+    "\"javascript\"",
   ],
   "author": "Rnjai Lamba <rnjailamba12@gmail.com>",
   "license": "ISC",
@@ -32,7 +35,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+      "url": "https://github.com/rnjailamba/randomnumberandwordgenerator/LICENSE-MIT"
     }
   ]
 }
